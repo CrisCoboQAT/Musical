@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Musical Playlists</string>
+    <string name="category_latest_hits_2018">Latest Hits 2018</string>
+    <string name="category_best_madonna">The best of Madonna</string>
+</resources>

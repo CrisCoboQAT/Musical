@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_dark_color"
+    tools:context="com.example.crisf.musical.MainActivity">
+
+    <TextView
+        android:id="@+id/category_latest_hits_2018"
+        style="@style/CategoryStyle"
+        android:text="@string/category_latest_hits_2018" />
+
+    <TextView
+        android:id="@+id/category_best_madonna"
+        style="@style/CategoryStyle"
+        android:text="@string/category_best_madonna" />
+
+</LinearLayout>
