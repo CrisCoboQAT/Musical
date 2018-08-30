@@ -23,14 +23,14 @@ public class LatestHits2018Activity extends AppCompatActivity {
         setContentView(R.layout.musical_list);
 
         ArrayList<Music> music = new ArrayList();
-        music.add(new Music("Havana","Camila Cabello"));
-        music.add(new Music("Perfect","Ed Sheeran"));
-        music.add(new Music("Shape of You","Ed Sheeran"));
-        music.add(new Music("One Kiss","Calvin Harris"));
-        music.add(new Music("New Rules","Dua Lipa"));
-        music.add(new Music("Despacito","Luis Fonsi"));
-        music.add(new Music("What Lovers Do","Maroon 5"));
-        music.add(new Music("No Tears Left to Cry","Ariana Grande"));
+        music.add(new Music(getString(R.string.havana),getString(R.string.camila_cabello)));
+        music.add(new Music(getString(R.string.perfect),getString(R.string.ed_sheeran)));
+        music.add(new Music(getString(R.string.shape_of_you),getString(R.string.ed_sheeran)));
+        music.add(new Music(getString(R.string.one_kiss),getString(R.string.calvin_harris)));
+        music.add(new Music(getString(R.string.new_rules),getString(R.string.dua_lipa)));
+        music.add(new Music(getString(R.string.despacito),getString(R.string.luis_fonsi)));
+        music.add(new Music(getString(R.string.what_lovers_do),getString(R.string.maroon_5)));
+        music.add(new Music(getString(R.string.no_tears_left_to_cry),getString(R.string.ariana_grande)));
 
         MusicalAdapter adapter = new MusicalAdapter(this, music);
         ListView listView = (ListView) findViewById(R.id.list);

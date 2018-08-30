@@ -20,14 +20,14 @@ public class TheBestOfMadonnaActivity extends AppCompatActivity {
         setContentView(R.layout.musical_list);
 
         ArrayList<Music> music = new ArrayList();
-        music.add(new Music("Like a Virgin","Madonna"));
-        music.add(new Music("La Isla Bonita","Madonna"));
-        music.add(new Music("Rain","Madonna"));
-        music.add(new Music("Like a Prayer","Madonna"));
-        music.add(new Music("Rescue Me","Madonna"));
-        music.add(new Music("Fever","Madonna"));
-        music.add(new Music("Hung Up","Madonna"));
-        music.add(new Music("Crazy for You","Madonna"));
+        music.add(new Music(getString(R.string.like_a_virgin),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.la_isla_bonita),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.rain),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.like_a_prayer),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.rescue_me),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.fever),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.hung_up),getString(R.string.madonna)));
+        music.add(new Music(getString(R.string.crazy_for_you),getString(R.string.madonna)));
 
         MusicalAdapter adapter = new MusicalAdapter(this, music);
         ListView listView = (ListView) findViewById(R.id.list);

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crisf.musical">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,9 +16,12 @@
         </activity>
         <activity
             android:name=".LatestHits2018Activity"
-            android:label="@string/category_latest_hits_2018"/>
+            android:label="@string/category_latest_hits_2018"
+            android:parentActivityName="MainActivity"/>
         <activity android:name=".TheBestOfMadonnaActivity"
-            android:label="@string/category_best_madonna"/>
-        <activity android:name=".NowPlayingActivity"/>
+            android:label="@string/category_best_madonna"
+            android:parentActivityName="MainActivity"/>
+        <activity android:name=".NowPlayingActivity"
+            android:parentActivityName="MainActivity"/>
     </application>
 </manifest>
